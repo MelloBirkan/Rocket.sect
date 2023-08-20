@@ -2,12 +2,20 @@ body {
   background-color: #2f2e41;
   color: #fff;
 
-  font-family: "Open Sans", sans-serif;
   font-family: "JetBrains Mono", monospace;
+
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
 }
 
 #page {
-  width: 1092;
+  width: 1090;
+  padding: 71px 100px;
+}
+
+header {
+  margin-bottom: 110px;
 }
 
 nav {
@@ -16,12 +24,73 @@ nav {
 }
 
 ul {
+  font-weight: 500;
+  line-height: 28px;
+  font-size: 14px;
   list-style: none;
+
   display: flex;
   gap: 64px;
 }
 
 ul li:hover {
-  font-weight: bold;
+  font-weight: 700;
   color: #00bfa6;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 77px;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 700px;
+  line-height: 40px;
+  margin-bottom: 60px;
+}
+
+.green {
+  color: #00bfa6;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400px;
+  text-align: center;
+  line-height: 28px;
+  font-size: 16px;
+
+  color: #c2c2c2;
+}
+
+span {
+  font-weight: 700;
+}
+
+#line {
+  border: 1px solid #00bfa6;
+
+  width: 570px;
+  margin: 0 auto 27px;
+}
+
+footer {
+  text-align: center;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#lock {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin: 20px;
 }

@@ -1,3 +1,27 @@
 body {
   background-color: #2f2e41;
+  color: #fff;
+
+  font-family: "Open Sans", sans-serif;
+  font-family: "JetBrains Mono", monospace;
+}
+
+#page {
+  width: 1092;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 64px;
+}
+
+ul li:hover {
+  font-weight: bold;
+  color: #00bfa6;
 }
